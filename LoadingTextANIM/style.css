@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Kanit&family=Mrs+Sheppards&family=Oswald:wght@700&display=swap');
+body{
+    background: #111;
+    margin:0;
+    padding: 0;
+}
+.loader{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.loader span{
+    font-family: 'Kanit';
+    font-size: 1.8em;
+    font-weight: 400;
+    color: rgba(255,255,255,.1);
+    display: inline-block;
+    transition: all .6s;
+    animation: animate 2.2s infinite;
+    animation-delay:2.2s infinite; 
+    box-shadow: 1px solid black;
+}
+.loader span:nth-child(1){animation-delay: 0.2s;}
+.loader span:nth-child(2){animation-delay: 0.4s;}
+.loader span:nth-child(3){animation-delay: 0.6s;}
+.loader span:nth-child(4){animation-delay: 0.8s;}
+.loader span:nth-child(5){animation-delay: 1s;}
+.loader span:nth-child(6){animation-delay: 1.2s;}
+.loader span:nth-child(7){animation-delay: 1.4s;}
+.loader span:nth-child(8){animation-delay: 1.6s;}
+.loader span:nth-child(9){animation-delay: 1.8s;}
+.loader span:nth-child(10){animation-delay: 2s;}
+
+
+@keyframes animate{
+    0%{
+        color: rgba(255,255,255,.1);
+        transform: translateY(0);
+        margin-left:5;
+    }
+    25%{
+        color:maroon;
+        transform: translateY(-50px);
+        margin-left:10px;
+        font-size: 6em;
+        text-shadow: 0 50px 5px rgba(0,0,0,1);
+        
+    }
+    100%{
+        color:rgba(255,255,255,.01);
+        transform: translateY(0);
+        text-shadow: 0 0 15px maroon,
+        0 0 80px maroon,
+        0 0 300px maroon,
+        0 0 600px maroon;
+    }
+}
