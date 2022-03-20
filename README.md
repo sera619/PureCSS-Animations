@@ -12,7 +12,7 @@
 >
 > - 3D Bottle with glowing Liquid
 > - 3D Logo Animation
-> - Finger Scaner
+> - Fingerprint Scanner
 > - Glowing Flash Text Animation
 > - Loading WaveText Animation
 > - Neonlight Buttons with cycling border
