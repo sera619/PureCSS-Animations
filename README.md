@@ -18,4 +18,4 @@
 > - Neonlight Buttons with cycling border
 > - Wave Text Animation
 > - Hill-Climbing Cube Animation
->
+> - Card Glassmorphism glowing
