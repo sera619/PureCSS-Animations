@@ -19,3 +19,4 @@
 > - Wave Text Animation
 > - Hill-Climbing Cube Animation
 > - Card Glassmorphism glowing
+> - Gradient Glowing-Border Button
