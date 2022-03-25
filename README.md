@@ -21,6 +21,6 @@
 > - Card Glassmorphism glowing
 > - Gradient Glowing-Border Button
 
-### Not CSS-Only 
+### Not CSS-Only ###
 
 > - 3D Background Image-Carousel
