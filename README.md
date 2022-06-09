@@ -10,7 +10,8 @@
 
 ## List of Animations ##
 
->
+
+> - 3D Hover Social Menu
 > - 3D Bottle with glowing Liquid
 > - 3D Logo Animation
 > - Fingerprint Scanner
